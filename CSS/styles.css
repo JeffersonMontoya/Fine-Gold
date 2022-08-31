@@ -168,7 +168,7 @@
         rgba(0,0,0,0.5)
     )
     
-    ,url(/img/programacionnnnnn.jpg);
+    ,url('../img/programacionnnnnn.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -363,7 +363,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-   background-image: url(/img/fondo\ catalogo.webp);
+   background-image: url('../img/fondo\ catalogo.webp');
    background-repeat: no-repeat;
    background-position: left bottom;
  
@@ -435,7 +435,7 @@
         rgba(0,0,0,0.5)
     )
     
-    ,url(/img/fondito\ contacto.jpeg);
+    ,url('');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
