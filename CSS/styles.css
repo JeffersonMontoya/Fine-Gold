@@ -16,12 +16,12 @@
     height:90px;
 }
 #header h1{
-    font-size: 10px;
+    font-size: 15px;
     font-family: 'DynaPuff', cursive;
     padding: 10px;
 }
 #header p{
-    font-size: 8px;
+    font-size:15px;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -435,7 +435,7 @@
         rgba(0,0,0,0.5)
     )
     
-    ,url('../img/fondocontacto.jpeg');
+    ,url('../img/clientenumero1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -456,6 +456,81 @@
         font-size: 25px;
     }
 }
+
+/* carrusel */
+
+.carousel-inner {
+    max-height: 39rem;
+  }
+
+  #clientes{
+    text-align: center;
+    padding: 40px;
+    margin: 10px 0px;
+    border-top: 2px solid #797373;
+    border-bottom: 2px solid #797373;
+  
+
+  }
+  .clientes__titulo{
+    font-weight: bold;
+    font-size: 21px;
+    text-align: center;
+    padding: 10px 0px;
+  }
+  .clientes__parrafo{
+    font-size: 19px;
+    color: black;
+    text-align: center;
+  }
+  @media screen and (min-width:768px){
+    .clientes__titulo{ 
+       font-size: 35px; 
+      }
+      .clientes__parrafo{
+        font-size: 25px;
+      }
+      
+  }
+  .clientes-imagen{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+  } 
+.container__clientes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 0px;
+
+}
+.clientes__personas {
+    margin: 15px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 300ms ease;
+    border-radius: 30px;
+
+}
+.clientes__personas:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.container__clientes h5{
+    text-align: center;
+}
+.container__clientes h3{
+    text-align: center;
+}
+.container__clientes a{
+    text-decoration: none;
+    margin-left: 70px;
+    color: black;
+}
+
+
 
 
 
