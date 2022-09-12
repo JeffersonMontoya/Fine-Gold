@@ -1,0 +1,58 @@
+#seccion-productos{
+    background-color:rgb(216, 209, 209);
+    font-weight: bold;
+    color: black;
+   
+}
+@media screen and (max-width:768px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+.titulo{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    margin:30px;
+    font-size: 30px;
+}
+.container-flexbox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   background-image: url('../img/fondo\ catalogo.webp');
+   background-repeat: no-repeat;
+   background-position: left bottom;
+ 
+  
+    
+}
+.caja{
+    margin: 15px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    border-radius: 30px;
+    img{
+        width: 300px;
+        height: 300px;
+        border-radius: 30px;
+      
+    }
+    p{
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    &:hover{
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+        transform: translateY(-3%);
+} 
+
+}
+
+

@@ -1,0 +1,75 @@
+#seccion-productos {
+  background-color: #d8d1d1;
+  font-weight: bold;
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+.titulo {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  margin: 30px;
+  font-size: 30px;
+}
+
+.container-flexbox {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../img/fondo catalogo.webp");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+}
+
+.caja {
+  margin: 15px;
+  overflow: hidden;
+  background: #fff;
+  -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+  cursor: default;
+  -webkit-transition: all 400ms ease;
+  transition: all 400ms ease;
+  border-radius: 30px;
+}
+
+.caja img {
+  width: 300px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.caja p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.caja:hover {
+  -webkit-box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+          box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  -webkit-transform: translateY(-3%);
+          transform: translateY(-3%);
+}
+
+p {
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+}
+/*# sourceMappingURL=sproductos.css.map */
