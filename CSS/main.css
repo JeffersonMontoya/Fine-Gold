@@ -258,6 +258,23 @@
   #contacto p {
     font-size: 25px; } }
 
+#container_sobremi img {
+  height: 200px;
+  width: 100%;
+  padding: 0px 15px;
+  border-radius: 70px; }
+
+#container_sobremi h2 {
+  text-align: center;
+  background-color: #2fb4cc;
+  color: white;
+  padding: 10px 0px; }
+
+#container_sobremi p {
+  text-align: center;
+  color: black;
+  padding: 20px 0px; }
+
 .pie-pagina {
   width: 100%;
   background-color: gray;

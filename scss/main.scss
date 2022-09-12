@@ -237,6 +237,7 @@
     #contacto{
         h1{
             font-size: 35px;
+         
         }
         p{
             font-size: 25px;
@@ -245,6 +246,28 @@
     }
   
 }
+#container_sobremi{
+    img{
+        height: 200px;
+        width: 100%;
+        padding: 0px 15px;
+        border-radius: 70px;
+    }
+    h2{
+        text-align: center;
+        background-color: #2fb4cc;
+        color:white;
+        padding: 10px 0px;
+    }
+    p{
+        text-align: center;
+        color: black;
+        padding: 20px 0px;
+    }
+}
+
+
+
 
 
 

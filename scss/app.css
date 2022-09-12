@@ -397,8 +397,23 @@
   }
 }
 
-#container_sobremi {
-  background-color: red;
+#container_sobremi img {
+  width: 100%;
+  height: 300px;
+  padding: 0px 10px;
+  border-radius: 20px;
+}
+
+#container_sobremi h2 {
+  text-align: center;
+  padding: 10px 0px;
+  background-color: #2fb4cc;
+}
+
+#container_sobremi p {
+  text-align: center;
+  color: black;
+  font-size: 20px;
 }
 
 .pie-pagina {
