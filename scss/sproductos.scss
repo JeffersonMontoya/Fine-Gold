@@ -1,12 +1,17 @@
 #seccion-productos{
     background-color:rgb(216, 209, 209);
     font-weight: bold;
-    color: black;
+    color:$color-letra;
    
+}
+@mixin flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 @media screen and (max-width:768px){
     .container{
-        display: flex;
+       @include flexbox;
         flex-wrap: wrap;
     }
 }
@@ -19,9 +24,7 @@
 }
 .container-flexbox{
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    @include flexbox;
    background-image: url('../img/fondo\ catalogo.webp');
    background-repeat: no-repeat;
    background-position: left bottom;
@@ -32,7 +35,7 @@
 .caja{
     margin: 15px;
     overflow: hidden;
-    background: #fff;
+    background: $color-segundario;
     box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
     cursor: default;
     transition: all 400ms ease;
