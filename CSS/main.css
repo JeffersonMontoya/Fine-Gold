@@ -65,9 +65,15 @@
 
 @media screen and (min-width: 360px) and (max-width: 750px) {
   #hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
     height: 60vh; }
     #hero h2 {
-      color: #4A8FE7;
+      color: #d8cef2;
       font-weight: bold;
       font-size: 20px; }
     #hero button {
@@ -94,12 +100,20 @@
   #container-sobrenosotros .imagen1 {
     width: 100%;
     height: 400px; }
-  #container-sobrenosotros h1 {
+  #container-sobrenosotros .texto-bienvenida {
     position: absolute;
     bottom: 55%;
     left: 17%;
     font-size: 19px;
     color: #0F0A0A; }
+
+.text-decoration, .quienes-somos {
+  font-weight: bold;
+  color: #2fb4cc;
+  text-shadow: 1px 5px 6px rgba(67, 67, 67, 0.64); }
+
+.quienes-somos {
+  color: #fff; }
 
 .destacados {
   width: 100%;
@@ -131,26 +145,20 @@
 @media screen and (max-width: 768px) {
   .container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column; } }
+    text-align: center; } }
 
 .container {
   width: 100%;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column; }
+  text-align: center; }
 
 #sobre-nosotros {
   padding: 30px;
-  background-color: #4A8FE7; }
+  background-color: #2fb4cc; }
   #sobre-nosotros h1 {
     text-align: center;
     font-weight: bold;
@@ -187,7 +195,7 @@
   #section_cards p {
     text-align: center;
     font-size: 13px;
-    color: #0F0A0A; }
+    color: black; }
 
 .carousel-inner {
   max-height: 39rem; }
@@ -216,12 +224,9 @@
 
 .container__clientes {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  justify-content: center;
   text-align: center;
-  flex-direction: column;
   padding: 30px 0px; }
   .container__clientes h5 {
     text-align: center; }
@@ -230,7 +235,7 @@
   .container__clientes a {
     text-decoration: none;
     margin-left: 70px;
-    color: #0F0A0A; }
+    color: black; }
 
 .clientes-imagen {
   width: 290px;
@@ -252,12 +257,9 @@
 
 #contacto {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  justify-content: center;
   text-align: center;
-  flex-direction: column;
   height: 50vh;
   color: white;
   background-image: linear-gradient(0deg, rgba(2, 0, 0, 0.786), rgba(0, 0, 0, 0.5)), url("../img/clientenumero1.jpg");
@@ -285,7 +287,7 @@
 
 #container_sobremi h2 {
   text-align: center;
-  background-color: #4A8FE7;
+  background-color: #2fb4cc;
   color: white;
   padding: 10px 0px; }
 
