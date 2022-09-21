@@ -11,14 +11,15 @@
   justify-content: center;
   align-items: center;
   text-align: center;
- 
 }
+
 #container-sobrenosotros{
   max-height: 400px;
   padding: 10px;
   .imagen1{
       width: 100%;
       height: 400px;
+      object-fit: cover;
   }
  .texto-bienvenida {
       position: absolute;
@@ -29,16 +30,7 @@
   }
 
 }
-.text-decoration{
-  font-weight: bold;
-  color: $color-botones;
-  text-shadow: 1px 5px 6px rgba(67,67,67,0.64);
-}
-.quienes-somos{
-  @extend .text-decoration;
-  color: $color-segundario;
-  
-}
+
 .destacados{
   width: 100%;
   margin: 20px;
@@ -72,16 +64,17 @@
 }
 @media screen and (max-width:768px){
  
- 
   .container{
     @include flexbox;
-    
-   
   }
 }
 .container{
   width: 100%;
   @include flexbox;
+}
+.container-cliente2{
+  display: flex;
+  flex-flow: row wrap;
 }
 // PAGINA SOBRE NOSOTROS PAGINA SOBRE NOSOTROS
 
@@ -124,6 +117,7 @@
       width: 100%;
       height: 300px;
       border-radius: 20px; 
+      object-fit: cover;
   }
   h3{
       text-align: center;
@@ -142,6 +136,7 @@
 
 .carousel-inner {
   max-height: 39rem;
+  object-fit: cover;
 }
 
 #clientes{
@@ -154,13 +149,14 @@
       font-weight: bold;
       font-size: 19px;
       text-align: center;
-      padding: 10px 0px;
+      padding: 40px 0px;
       
     }
     span{
       font-size: 18px;
       color: black;
       text-align: center;
+      padding-top: 40px;
     }
 
 }
@@ -182,21 +178,25 @@
   padding: 30px 0px;
   h5{
       text-align: center;
+      padding-top: 15px;
   }
   h3{
       text-align: center;
+      padding-top: 15px;
   }
   a{
       text-decoration: none;
-      margin-left: 70px;
       color: black;
+    
   }
 }
 .clientes-imagen{
   width: 290px;
   height: 250px;
   border-radius: 20px;
+  object-fit: cover;
 } 
+
 .clientes__personas {
   margin: 15px;
   overflow: hidden;
@@ -216,7 +216,6 @@
 // PAGINA CONTACTO PAGINA CONTACTO
 
 #contacto{
-  @include flexbox;
   height: 50vh;
   color: $color-terciario;
   background-image: linear-gradient(
@@ -232,23 +231,24 @@
   h1{
       text-align: center;
       font-size: 20px;
+      padding-top: 20px;
   }
   p{
       text-align: center;
       font-size: 15px;
+      padding-top: 20px;
   }
 }
 @media screen and (min-width:768px){
 
   #contacto{
       h1{
-          font-size: 35px;
-       
+          font-size: 35px; 
       }
       p{
-          font-size: 25px;
+          font-size: 20px;
+          text-align: center;
       }
-
   }
 }
 #container_sobremi{
@@ -256,7 +256,8 @@
       height: 200px;
       width: 100%;
       padding: 0px 15px;
-      border-radius: 70px;
+      border-radius: 20px;
+      object-fit: cover;
   }
   h2{
       text-align: center;

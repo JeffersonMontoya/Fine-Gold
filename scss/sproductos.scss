@@ -9,6 +9,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
 @media screen and (max-width:768px){
     .container{
        @include flexbox;
@@ -28,9 +29,7 @@
    background-image: url('../img/fondo\ catalogo.webp');
    background-repeat: no-repeat;
    background-position: left bottom;
- 
-  
-    
+   
 }
 .caja{
     margin: 15px;
@@ -44,12 +43,14 @@
         width: 300px;
         height: 300px;
         border-radius: 30px;
+        object-fit: fill;
       
     }
     p{
         text-align: center;
         font-size: 20px;
         font-weight: bold;
+        padding-top: 12px;
     }
     &:hover{
         box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
