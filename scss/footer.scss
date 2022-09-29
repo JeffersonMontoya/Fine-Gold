@@ -26,10 +26,12 @@
         color:map-get($colors , terciario );
         margin-bottom: 25px;
         font-size: 20px;
+        font-family: $primary-typography;
     }
     p{
         color: map-get($colors, primary );
         margin-bottom: 10px;
+        font-family: $text-typography;
     }
     .grupo-1 .red-social a{
         display: inline-block;
@@ -52,6 +54,7 @@
          color: map-get($colors, terciario );
          small{
             font-size: 15px;
+            font-family: $text-typography;
         }
      }
      

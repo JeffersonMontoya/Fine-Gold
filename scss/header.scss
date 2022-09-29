@@ -22,11 +22,14 @@
         font-family: 'DynaPuff', cursive;
         padding: 10px;
         font-weight: bold;
+        font-family: $primary-typography;
+        font-weight: bold;
     }
     p{
         font-size:15px;
         font-family: 'Work Sans', sans-serif;
         color: map-get($colors, letra );
+        font-family: $text-typography;
     }   
 }
 @media screen and (min-width:768px){
